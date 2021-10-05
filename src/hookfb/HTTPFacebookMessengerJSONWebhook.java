@@ -64,9 +64,9 @@ public class HTTPFacebookMessengerJSONWebhook implements HttpHandler {
 	 * Under "Expires" it should say "Never".
 	 */
 
-	private static String yourFBPageID = "XXXXXXXXXXX";
-	private static String yourTestAppId = "YYYYYYYYYYY";
-	private static final String yourTestAppSecret = "ZZZZZZZZZZZZZZZZZ";
+	private static String yourFBPageID = "228194702496393";
+	private static String yourTestAppId = "605616767265281";
+	private static final String yourTestAppSecret = "141687bbc4a3f800057f64f3746f2de3";
 	private static final String PSID = "AAAAAAAAAAAAAAAAA";
 	private static final String ASID = "BBBBBBBBBBBBBBBBBBBBB";
 
@@ -79,7 +79,7 @@ public class HTTPFacebookMessengerJSONWebhook implements HttpHandler {
 	private static String shortTermPageAccTok = "asdfasdfasdfasdfasdfasfdasfdas";
 
 	private static String longLivedAccTok = "zxcvzxcvxzcvzxcvzxvzxcvzxv";
-	private static String permPageAccTok = "fghjfghjfgjhfghjfghhjfghjfghjfg";
+	private static String permPageAccTok = "EAAImziRIagEBADJsShpSv836ursoM1QZCEbcuCEKRX58jX5AmToWWInQl2AvhtdUaBKQjKWxF961imqioGGmwLl0X6ffBNxwFXAoTBDnFOyvHCZAdnsaDe27pULZBeVi4uPHXtotHY0307Dg1doNHa5rVzgH0FbJFOcrUR4umryoD8dJIbV";
 
 	private static String urlTempMe = "https://graph.facebook.com/v2.6/me/messages?access_token=" + shortTermPageAccTok;
 	private static String urlTempPage = "https://graph.facebook.com/v2.6/" + yourFBPageID + "/messages?access_token="
