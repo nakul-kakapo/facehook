@@ -19,7 +19,7 @@ import com.sun.net.httpserver.HttpServer;
 
 
 public class HTTPFacebookMessengerJSONWebhook implements HttpHandler {
-	private String challenge = "";
+	private String challenge = "VERIFY_STRING";
 
 	/*
 	 * I got the following information from Stackoverflow.
