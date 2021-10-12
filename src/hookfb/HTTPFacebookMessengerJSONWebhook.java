@@ -64,7 +64,7 @@ public class HTTPFacebookMessengerJSONWebhook implements HttpHandler {
 	 * Under "Expires" it should say "Never".
 	 */
 
-	private static String yourFBPageID = "228194702496393";
+	private static String yourFBPageID = "101354462332185";
 	private static String yourTestAppId = "605616767265281";
 	private static final String yourTestAppSecret = "141687bbc4a3f800057f64f3746f2de3";
 	private static final String PSID = "AAAAAAAAAAAAAAAAA";
